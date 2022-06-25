@@ -15,7 +15,7 @@ public class NetworkClient {
 			PrintWriter pr = new PrintWriter(new OutputStreamWriter(socket.getOutputStream(),"UTF-8"));
 			pr.println("hi~~~~~~~~~~");
 			pr.flush();
-			System.out.println("Å¬¶óÀÌ¾ğÆ®°¡ ¹Ş´Â ³»¿ë : " + br.readLine());
+			System.out.println("í´ë¼ì´ì–¸íŠ¸ê°€ ë°›ëŠ” ë‚´ìš© : " + br.readLine());
 		}catch(Exception e) {
 			e.printStackTrace();
 		}

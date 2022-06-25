@@ -3,33 +3,33 @@ package com.mh.coding.level1;
 public class CallByValueAndReference {
 
 	public static String receive(String data) {
-		data = data + " ¹Þ¾Ò´Ù";
+		data = data + " ë°›ì•˜ë‹¤";
 		return data;
 	}
 
 	public static String receive(String[] data) {
-		data[0] = data[0] + " ¹Þ¾Ò´Ù";
+		data[0] = data[0] + " ë°›ì•˜ë‹¤";
 		return data[0];
 	}
 
-	
+
 	public static void main(String[] args) {
-		
-		String X = "³ª´Â ";
+
+		String X = "ë‚˜ëŠ” ";
 		String[] A = new String[1];
-		A[0] = "³ª´Â ";
+		A[0] = "ë‚˜ëŠ” ";
 		String Y  = receive(X);
-		
+
 		//System.out.println(X);
 		//System.out.println(Y);
-		
+
 		Y  = receive(A);
-		
+
 		System.out.println(A[0]);
 		System.out.println(Y);
-		
-		// ±ÇÀ¯ :  Call By Ref (Method ) --> Map / Set / List --> ·¹ÆÛ·±½º / °´Ã¼
-		
+
+		// ê¶Œìœ  :  Call By Ref (Method ) --> Map / Set / List --> ë ˆí¼ëŸ°ìŠ¤ / ê°ì²´
+
 	}
-	
+
 }

@@ -4,22 +4,22 @@ public class Woman implements People{
 
 	@Override
 	public void say() {
-		System.out.println("Àú´Â ¿©ÀÚ ÀÔ´Ï´Ù");
+		System.out.println("ì €ëŠ” ì—¬ì ì…ë‹ˆë‹¤");
 	}
 
 	@Override
 	public String listen(String message) {
-		return "¿©ÀÚ´Â Àß µé¾î¿ä " + message;
+		return "ì—¬ìëŠ” ì˜ ë“¤ì–´ìš” " + message;
 	}
 
 	@Override
 	public void sin() {
-		System.out.println("»ç°ú¸¦ ¸Ô¾ú¾î¿ä");
+		System.out.println("ì‚¬ê³¼ë¥¼ ë¨¹ì—ˆì–´ìš”");
 	}
 
 	@Override
 	public void breath() {
-		System.out.println("¼ûÀ» ½¬¾î¿ä");
+		System.out.println("ìˆ¨ì„ ì‰¬ì–´ìš”");
 	}
 
 }

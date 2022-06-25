@@ -13,7 +13,7 @@ public class FileReadWriter {
 		System.out.println(f.length());
 		System.out.println(f.lastModified());
 		
-		// Byte : Stream (I/O) , ¹®ÀÚ¿­ : Reader/Writer
+		// Byte : Stream (I/O) , ë¬¸ìì—´ : Reader/Writer
 		try {
 			FileInputStream fr = new FileInputStream(f);
 			//  Decoration Pattern
@@ -21,10 +21,10 @@ public class FileReadWriter {
 			BufferedReader br = new BufferedReader(isr);
 			StringBuilder sb = new StringBuilder();
 			
-//			sb.append("³ª´Â ");
-//			sb.append("¿À´Ã ");
-//			sb.append("¾à¼ÓÀÌ ");
-//			sb.append("ÀÖ¾î¿ä");
+//			sb.append("ë‚˜ëŠ” ");
+//			sb.append("ì˜¤ëŠ˜ ");
+//			sb.append("ì•½ì†ì´ ");
+//			sb.append("ìˆì–´ìš”");
 //			System.out.println(sb.toString());
 			char[] buf = new char[256];
 			int read_byte = -1;

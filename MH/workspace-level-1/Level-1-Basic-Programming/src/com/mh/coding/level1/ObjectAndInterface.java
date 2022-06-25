@@ -1,24 +1,24 @@
 package com.mh.coding.level1;
 
 public class ObjectAndInterface {
-	
+
 	public static void main(String[] args) {
-		
+
 		People p = new Man();
 		p.say();
-		
+
 		p = new Man() {
 			@Override
 			public void say() {
-				System.out.println("Àú´Â ¿©ÀÚ ÀÔ´Ï´Ù.");
+				System.out.println("ì €ëŠ” ì—¬ì ì…ë‹ˆë‹¤.");
 			}
 		};
-		
+
 		p.say();
-		
-		// Overloading...È®ÀÎ¸¸ ÇØº¸¼¼¿ä
-		// DI : Dependency Injection ±â¼ú È®ÀÎ ÇÑ¹ø ºÎÅ¹~~~
-		
-		
+
+		// Overloading...í™•ì¸ë§Œ í•´ë³´ì„¸ìš”
+		// DI : Dependency Injection ê¸°ìˆ  í™•ì¸ í•œë²ˆ ë¶€íƒ~~~
+
+
 	}
 }

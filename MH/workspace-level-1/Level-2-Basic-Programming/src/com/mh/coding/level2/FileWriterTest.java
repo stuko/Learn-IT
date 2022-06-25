@@ -18,7 +18,7 @@ public class FileWriterTest {
 			BufferedReader br = new BufferedReader(isr);
 			StringBuilder sb = new StringBuilder();
 			String line = null;
-			sb.append("2022³â 5¿ù 21ÀÏ 10½Ã 48ºĞ 08ÃÊ,  À±¼®·Ä,  ³ª´Â ¹®´ëÅë·ÉÀÌ ¾Æ´Õ´Ï´Ù.").append("\n");
+			sb.append("2022ë…„ 5ì›” 21ì¼ 10ì‹œ 48ë¶„ 08ì´ˆ,  ìœ¤ì„ë ¬,  ë‚˜ëŠ” ë¬¸ëŒ€í†µë ¹ì´ ì•„ë‹™ë‹ˆë‹¤.").append("\n");
 			while((line = br.readLine()) != null) {
 				sb.append(line).append("\n");
 			}

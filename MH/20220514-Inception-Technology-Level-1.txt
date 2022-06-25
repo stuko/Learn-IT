@@ -29,11 +29,28 @@ Have to Know
   - IDE + Language (Java / Kotlin / Python / Javascript for Nodejs, React, Vue / Go lang)
   - Build tools (Gradle / Maven)
   - Configuration Management (Git : Github or Gitlab , Jenkins)
+  - Functional Programming ( Lambda )
+    (https://www.youtube.com/watch?v=VRpHdSFWGPs)
  
 3. Web Architecture ( Include SPA / Mobile )
-  - HTML/CSS/Javascript(JQuery, React, Typescript)
+  - HTML/CSS/Javascript(JQuery, React, Typescript , Javascript ES6)
+    werbserver : nginx
+    https://www.w3schools.com/tags/default.asp
+    https://getbootstrap.kr/
+    Free Theme :  https://startbootstrap.com/themes
+    --> https://getbootstrap.com/docs/5.2/components/buttons/#content
+  - javascript Framework
+    : JQuery ( https://releases.jquery.com/)
+
   - HTTP Protocol
+    (REST : 사용하는 방식)
+    - create, update, delete, read/search
+      - http://aaa.com/product/create
+      - http://aaa.com/product/delete
+      - http://aaa.com/product   : HTTP Method :GET/PUT/DELETE/POST 
+
   - JSP/Servlet (Servlet Container)
+
   - MVC
   - Spring MVC
   - Connection Pool

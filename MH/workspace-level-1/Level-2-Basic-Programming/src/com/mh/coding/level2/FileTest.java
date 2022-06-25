@@ -12,7 +12,7 @@ public class FileTest {
 			System.out.println(f.length());
 			System.out.println(f.lastModified());
 			
-			// Byte : Stream (I/O) , ¹®ÀÚ¿­ : Reader/Writer
+			// Byte : Stream (I/O) , ë¬¸ìì—´ : Reader/Writer
 			try {
 				FileInputStream  fis = new FileInputStream(f);
 				byte[] buf = new byte[256];

@@ -1,14 +1,14 @@
 package com.mh.coding.level1;
 
 public class ByteTest {
-	
+
 	public static void main(String[] args) {
 		String s = "ABCDEFG";
-		byte[] b = s.getBytes();  // ΖΔ¶σΉΜΕΝ Character Set : ΗΡ±ΉΎξ/ΏµΎξ....ISO8859_1 --> UTF-8 or EUC-KR
-		// Ελ½Ε : Byte[] ·Ξ ΐόΌΫ
-		
-		String X = new String(b); //  ΖΔ¶σΉΜΕΝ
-		
+		byte[] b = s.getBytes();  // νλΌλ―Έν„° Character Set : ν•κµ­μ–΄/μμ–΄....ISO8859_1 --> UTF-8 or EUC-KR
+		// ν†µμ‹  : Byte[] λ΅ μ „μ†΅
+
+		String X = new String(b); //  νλΌλ―Έν„°
+
 	}
 
 }

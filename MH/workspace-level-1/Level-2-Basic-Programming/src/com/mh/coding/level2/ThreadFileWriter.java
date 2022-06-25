@@ -17,9 +17,9 @@ public class ThreadFileWriter {
 			OutputStreamWriter osw = new OutputStreamWriter(fos,"UTF-8");
 			PrintWriter pw = new PrintWriter(osw);
 			if(System.currentTimeMillis()%2 == 0)
-				pw.println("2022³â 05¿ù 21ÀÏ 11½Ã 23ºĞ 08ÃÊ,  ¾ÈÃ¶¼ö, ¹®´ëÅë·ÉÀº ÀÌÁ¦ ÃÖ°í Åë¼ö±ÇÀÚ°¡ ¾Æ´Õ´Ï´Ù.");
+				pw.println("2022ë…„ 05ì›” 21ì¼ 11ì‹œ 23ë¶„ 08ì´ˆ,  ì•ˆì² ìˆ˜, ë¬¸ëŒ€í†µë ¹ì€ ì´ì œ ìµœê³  í†µìˆ˜ê¶Œìê°€ ì•„ë‹™ë‹ˆë‹¤.");
 			else
-				pw.println("2022³â 05¿ù 21ÀÏ 11½Ã 23ºĞ 08ÃÊ,  À±¼®·Ä, Á¦°¡ Áö±İ ´ëÅë·ÉÀÌ¶ó°í¿ä.");
+				pw.println("2022ë…„ 05ì›” 21ì¼ 11ì‹œ 23ë¶„ 08ì´ˆ,  ìœ¤ì„ë ¬, ì œê°€ ì§€ê¸ˆ ëŒ€í†µë ¹ì´ë¼ê³ ìš”.");
 			pw.close();
 		}catch(Exception e) {
 			e.printStackTrace();

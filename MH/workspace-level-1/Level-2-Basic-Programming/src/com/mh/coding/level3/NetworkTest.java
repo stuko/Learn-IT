@@ -16,8 +16,8 @@ public class NetworkTest {
 			Socket socket = ss.accept();
 			BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream(),"UTF-8"));
 			PrintWriter pr = new PrintWriter(new OutputStreamWriter(socket.getOutputStream(),"UTF-8"));
-			System.out.println("¼­¹ö°¡ ¹Ş´Â ³»¿ë : " + br.readLine());
-			pr.println("ÇÏÀÌ....");
+			System.out.println("ì„œë²„ê°€ ë°›ëŠ” ë‚´ìš© : " + br.readLine());
+			pr.println("í•˜ì´....");
 			pr.flush();
 			br.close();
 			pr.close();

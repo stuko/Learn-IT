@@ -18,8 +18,8 @@ public class NIOServerTest {
 			ByteBuffer buffer = ByteBuffer.allocate(1000);
 			channel.read(buffer);
 			System.out.println(buffer.toString());
-			byte[] byteArr = "ÇÏÀÌ....\n".getBytes(StandardCharsets.UTF_8);
-			ByteBuffer byteBuffer = ByteBuffer.wrap(byteArr);  // HeapByteBuffer¸¦ ¹İÈ¯ÇÑ´Ù.
+			byte[] byteArr = "í•˜ì´....\n".getBytes(StandardCharsets.UTF_8);
+			ByteBuffer byteBuffer = ByteBuffer.wrap(byteArr);  // HeapByteBufferë¥¼ ë°˜í™˜í•œë‹¤.
 			channel.write(byteBuffer);
 			
 		}catch(Exception e) {
