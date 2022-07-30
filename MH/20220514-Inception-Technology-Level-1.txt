@@ -1,3 +1,7 @@
+https://github.com/stuko/Learn-IT.git
+
+
+
 --------------------------------------
 Now...
 --------------------------------------
@@ -53,10 +57,14 @@ Have to Know
 
   - MVC
   - Spring MVC
-  - Connection Pool
   - 3 Tier (Web Application Server)
 
-4. Opensource Architecture ( Spring / Netty )
+   Amogo code : Spring Boot Tutorial
+   https://www.youtube.com/watch?v=9SGDpanrc8U
+
+  - Connection Pool
+  
+4. Opensource Architecture ( Spring / Netty ) --> 12번 도커 참조
   - OSS for Web
   - OSS for NoSQL
   - OSS for DB
@@ -104,6 +112,11 @@ Have to Know
 
 12. Modern Architecture ( Include configuration management and CI/CD)
   - Docker
+    [따배도] 0. 드디어 찾아온 Docker 강의! 왕초보에서 도커 마스터로
+    https://www.youtube.com/watch?v=NLUugLQ8unM&list=PLApuRlvrZKogb78kKq1wRvrjg1VMwYrvi
+    Amigo Code : Docker tutorial
+    https://www.youtube.com/watch?v=p28piYY_wv8	
+
   - K8S
   - MSA
   - EDA
